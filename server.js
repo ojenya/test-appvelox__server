@@ -10,8 +10,7 @@ app.use(express.urlencoded({
 }))
 
 app.get('/appointment', (req, res) => {
-    res.json({
-        appointment: [{
+    res.json( [{
                 id: 0,
                 date: 1592235000,
                 imageUrl: 'https://img5.goodfon.ru/wallpaper/nbig/5/b9/barbara-palvin-devushka-vzgliad-litso-model.jpg',
@@ -52,7 +51,7 @@ app.get('/appointment', (req, res) => {
                 doc_depart:'Стоиматология'
             }
         ]
-    })
+    )
 })
 
 app.listen(port)
