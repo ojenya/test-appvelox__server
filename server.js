@@ -12,7 +12,7 @@ app.use(express.urlencoded({
 app.get('/appointment', (req, res) => {
     res.json( [{
                 id: 0,
-                date: 1603188000,
+                date: 1602351000,
                 imageUrl: 'https://klinikarassvet.ru/upload/iblock/5a2/5a27bfd99458ef81a8cf9c530da9e38f.png',
                 depart:'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А',
                 name:'Малушко Т. Н.',
@@ -20,7 +20,7 @@ app.get('/appointment', (req, res) => {
             },
             {
                 id: 1,
-                date: 1602351000,
+                date: 1603188000,
                 imageUrl: 'https://образжизни.москва/wp-content/uploads/2018/08/Peganov.jpg',
                 depart:'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 51, лит. А',
                 name:'Харьков В. С.',
@@ -29,7 +29,7 @@ app.get('/appointment', (req, res) => {
             {
                 id: 2,
                 date: 1603875600,
-                imageUrl: 'https://lh3.googleusercontent.com/proxy/ajdTgZTJbm0OxgAh_Nd_R1o4UHilwMj5HZ_bMe6kD-GQsDy01jOcNcLo28UKxOhwdpPhw7mNKX0DR-bXCHJOwCgcsOon',
+                imageUrl: 'https://klinikarassvet.ru/upload/iblock/5a2/5a27bfd99458ef81a8cf9c530da9e38f.png',
                 depart:'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А',
                 name:'Малушко Т. Н.',
                 doc_depart:'Хирургическое отделение'
