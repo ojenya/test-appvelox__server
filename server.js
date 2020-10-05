@@ -13,7 +13,7 @@ app.get('/appointment', (req, res) => {
     res.json( [{
                 id: 0,
                 date: 1592235000,
-                imageUrl: 'https://img5.goodfon.ru/wallpaper/nbig/5/b9/barbara-palvin-devushka-vzgliad-litso-model.jpg',
+                imageUrl: 'https://klinikarassvet.ru/upload/iblock/5a2/5a27bfd99458ef81a8cf9c530da9e38f.png',
                 depart:'СПБ ГБУЗ "Городская поликлиника №25", пр. Солидарности, д. 1, к. 1, лит. А',
                 name:'Малушко Т. Н.',
                 doc_depart:'Хирургия'
@@ -37,7 +37,7 @@ app.get('/appointment', (req, res) => {
             {
                 id: 3,
                 date: 1592474400,
-                imageUrl: 'https://img5.goodfon.ru/wallpaper/nbig/5/b9/barbara-palvin-devushka-vzgliad-litso-model.jpg',
+                imageUrl: 'https://www.emcmos.ru/sites/default/files/lobuznov-andrey-yurevich_510x520.jpg',
                 depart:'СПБ ГБУЗ "Городская поликлиника №15", пр. Комсомольский, д. 12, к. 112',
                 name:'Верещагин В. Н.',
                 doc_depart:'Неврологическое отделение'
